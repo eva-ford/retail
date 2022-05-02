@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Mens</title>
+    <link rel="stylesheet" href="css/product2.css"> 
+    <style>
+/* LAPTOP */
+nav {
+    padding-top: 70px;
+    padding-left: 300px;
+    padding-right: 400px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+    font-family:'helvica','copperplate';
+}
+body { 
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height:auto;
+}
+.container > * {
+        background-color: white;
+        border:solid 1px rgba(0,0,0,0);
+}
+.container {
+        display:grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+}
+.logo {
+    padding-top: 55px;
+    padding-left: 10px;
+    grid-column: 1/2;
+}
+.menu {
+    grid-column: 2/12;
+}
+.contact {
+    grid-column: 12/13;
+    padding-top: 30px;
+}
+.bigimage {
+    grid-column: 1/13;
+    padding-bottom: 40px;
+}
+.image1 {
+    grid-column: 1/4;
+    padding-left: 25px;
+}
+.image2 {
+    grid-column: 4/7;
+}
+.image3 {
+    grid-column: 7/10;
+}
+.image4 {
+    grid-column: 10/13;
+    padding-right: 25px;
+}
+.image5 {
+    grid-column: 1/4;
+    padding-left: 25px;
+}
+.image6 {
+    grid-column: 4/7;
+}
+.image7 {
+    grid-column: 7/10;
+}
+.image8 {
+    grid-column: 10/13;
+    padding-right: 25px;
+}
+footer {
+    Display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-column: 1/13;
+    background-color: #ece9e9!important;
+}
+/* IPAD */
+@media only screen and (max-width: 1024px) {
+    .logo {
+        grid-column: 1/13;
+        grid-row: 1/2;
+    }
+    .contact {
+        grid-column: 10/13;
+        grid-row: 1/2;
+    }
+    .menu {
+        grid-column: 1/13;
+    }
+    .image1 {
+        grid-column: 1/7;
+    }
+    .image2 {
+        grid-column: 7/13;
+    }
+    .image3 {
+        grid-column: 1/7;
+    }
+    .image4 {
+        grid-column: 7/13;
+    }
+    .image5 {
+        grid-column: 1/7;
+    }
+    .image6 {
+        grid-column: 7/13;
+    }
+    .image7 {
+        grid-column: 1/7;
+    }
+    .image8 {
+        grid-column: 7/13;
+    }
+}
+/* IPHONE */
+@media only screen and (max-width: 600px) {
+    .logo {
+        grid-column: 1/13;
+        grid-row: 1/2;
+    }
+    .contact {
+        grid-column: 10/13;
+        grid-row: 2/3;
+    }
+    .menu {
+        grid-column: 1/13
+    }
+    .image1 {
+        grid-column: 1/7;
+    }
+    .image2 {
+        grid-column: 7/13;
+    }
+    .image3 {
+        grid-column: 1/7;
+    }
+    .image4 {
+        grid-column: 7/13;
+    }
+    .image5 {
+        grid-column: 1/7;
+    }
+    .image6 {
+        grid-column: 7/13;
+    }
+    .image7 {
+        grid-column: 1/7;
+    }
+    .image8 {
+        grid-column: 7/13;
+    }
+    footer {
+        grid-column: 1/7;
+    }
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <a href="index.html" target="_blank"><img src="images/logo.png" alt="email logo"></a> 
+        </div>
+        <div class="menu">
+            <nav> 
+                <a href="index.html" style="color:black"> <div> HOME </div></a>
+                <a href="product1.html" style="color:black"> <div> WOMENS </div></a>
+                <a href="product2.html" style="color:black"> <div> MENS </div></a>
+                <a href="Policy.html" style="color:black"> <div> MISSION </div></a>
+            </nav>
+        </div>
+        <div class="contact">
+            <a href="mailto:evamucaford@gmail.com" target="_blank"><img src="images/877907.jpg" alt="email logo"></a>
+        </div>
+        <div class="bigimage">
+            <img src="images/mountainclimbers-asianman-exercise-man-working-out-2294361.jpg" alt="man workingout">
+            <div class="centered"> SHOP MEN </div>
+        </div>
+        <div class="image1">
+            <img src="images/a91922baf46ee447cbef20567a7d12a6.jpg" alt="mens t shirt in caramel">
+            <h4> $26 USD</h4>
+            <p> Seamless Mens T-Shirt <br>
+            <i>Spicy Caramel </i></p>
+        </div>
+        <div class="image2">
+            <img src="images/b7450d6b2b2d589b236d8a69b78e6460.jpg" alt="mens joggers in gray">
+            <h4> $55 USD</h4>
+            <p> Super Soft Mens Joggers<br>
+            <i>Winter Grey </i></p>
+        </div>
+        <div class="image3">
+            <img src="images/134a8fecb3b976469e07128328ceebcc.jpg" alt="mens sleeveless black top">
+            <h4> $22 USD</h4>
+            <p> Mens Sleeveless Super Neck <br>
+            <i>Deep Black </i></p>
+        </div>
+        <div class="image4">
+            <img src="images/7babbdba0324953cc84123fbef80b80b.jpg" alt="mens 8 inch shorts in white">
+            <h4> $30 USD</h4>
+            <p> Mens 8 inch Shorts<br>
+            <i>White </i></p>
+        </div>
+        <div class="image5">
+            <img src="images/c686534ea3102bdc8877f5e1c33a8f6a.jpg" alt="mens shorts in grey with black detail">
+            <h4> $30 USD</h4>
+            <p> Mens Shorts<br>
+            <i>Deep Grey with Black Detail</i></p>
+        </div>
+        <div class="image6">
+            <img src="images/758e0a2619ebfe991a94ec8ab11f43c5.jpg" alt="mens shorts in ice blue">
+            <h4> $35 USD</h4>
+            <p> Mens Shorts<br>
+            <i>Ice Blue </i></p>
+        </div>
+        <div class="image7">
+            <img src="images/3b7b8f65fb2aa84e43349db0edb0ff26.jpg" alt="mens seamless shorts in forrest green ">
+            <h4> $30 USD</h4>
+            <p> Seamless Mens Shorts<br>
+            <i>Forrest Green </i></p>
+        </div>
+        <div class="image8">
+            <img src="images/37e54c43d2222446393f1ce7f57291e3.jpg" alt="mens black sleeveless">
+            <h4> $26 USD</h4>
+            <p> Seamless Mens Sleeveless<br>
+            <i>Black</i></p>
+        </div>
+        <footer>
+            <div class="footer-content">
+               <div class="footer-section-about">
+                   <p> HELP</p>
+                   <a href="policy.html" style="color:black"><p> POLICY <br> TERMS & CONDITIONS <br> RETURNS<br> CONTACT US<br> LEGAL NOTICE <br> MISSIONS</p></a> 
+                   </div>
+                   <div class="footer-section-links">
+                    <p> PAGES</p>
+                   <p><a href="index.html" style="color:black"> HOME</a><br>
+                    <a href="product1.html" style="color: black"> WOMENS</a><br>
+                    <a href="product2.html" style="color:black"> MENS</a><br> 
+                    <a href="policy.html" style="color:black"> MISSION</a></p>
+                   </div>
+                   <div class="footer-section-contact-form">
+                       <p> FIND US</p>
+                       <p> Instagram @EVOLVE4U <br> Twitter @EVOLVE <br> Facebook @EVOLVE <br> Youtube @EVOLVE </p>
+                    </div>
+                    <div class="thank-you">
+                        <p> Thank You For Your Support!!</p>
+                    </div>
+           <div class="footer-bottom">
+               &copy; 2022 | EVOLVE YOU | ALL RIGHTS RESERVED | ATHLETICS</div>
+           </div>
+           </footer>
+    </div>
+    </body>
+    </html>
+    
+      
+    
